@@ -59,9 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/fuzz_got_branches.mayhemfile
-          - mayhem/fuzz_got_chunking.mayhemfile
-          - mayhem/fuzz_got_gdat.mayhemfile
+          - mayhem/fuzz_greatape_activitypub.mayhemfile
+          - mayhem/fuzz_greatape_validators.mayhemfile
 
     steps:
       - uses: actions/checkout@v3
